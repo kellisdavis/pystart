@@ -56,3 +56,18 @@ If the pop-up dissapear before you can click on it, you can click on the "PORTS"
 
 After you enable the port to be access via your browser, you will see your browser open to the application. You can now use the URL the browser points to for your API access.
 ![](./docs/images/running-browser.png?raw=true)
+## Run (Groq CLI)
+
+Install dependencies:
+pip install -r requirements.txt
+
+Set your Groq API key:
+export GROQ_API_KEY="your_key_here"
+
+Optional (model override):
+export GROQ_MODEL="openai/gpt-oss-120b"
+
+Run the app:
+python main.py
+
+Type "quit" to exit.
